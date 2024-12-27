@@ -40,7 +40,7 @@ def main():
 
         review_task = Task(
             description="Review and enhance the travel plan with local insights",
-            expected_output="Enhanced plan with local recommendations",
+            expected_output="Enhanced plan with local recommendations and their detailed address/contact",
             agent=local_expert
         )
 
