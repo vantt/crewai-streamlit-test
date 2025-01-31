@@ -22,7 +22,8 @@ class TravelTaskManager:
             Task(
                 description="Review and enhance the travel plan with local insights",
                 expected_output="Enhanced plan with local recommendations and their detailed address/contact",
-                agent=local_expert
+                agent=local_expert,
+                context_required=True 
             )
         ]
         return tasks
